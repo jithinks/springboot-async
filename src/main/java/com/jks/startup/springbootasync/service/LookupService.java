@@ -3,7 +3,6 @@ package com.jks.startup.springbootasync.service;
 import com.jks.startup.springbootasync.model.Topic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -15,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.concurrent.CompletableFuture;
 
-import static com.jks.startup.springbootasync.Util.ExternalAppAuth.getHeader;
+import static com.jks.startup.springbootasync.util.ExternalAppAuth.getHeader;
 
 @Service
 public class LookupService {

@@ -1,8 +1,7 @@
-package com.jks.startup.springbootasync.Util;
+package com.jks.startup.springbootasync.util;
 
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.http.HttpHeaders;
-import org.springframework.stereotype.Component;
 
 public class ExternalAppAuth {
 
